@@ -104,7 +104,3 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: ${{ github.workflow }} успешно выполнен!
-
-
-
-sudo apt install \apt-transport-https \ca-certificates \curl \gnupg-agent \software-properties-common -y
