@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY'),
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '158.160.17.139',
+    '51.250.31.242',
     'localhost',
     '127.0.0.1',
     'foodgramtube.hopto.org',
