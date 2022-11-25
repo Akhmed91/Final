@@ -1,0 +1,6 @@
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/foodgramtube.hopto.org/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/foodgramtube.hopto.org/privkey.pem
+This certificate expires on 2023-02-22.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
