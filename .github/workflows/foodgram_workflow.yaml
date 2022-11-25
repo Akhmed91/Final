@@ -1,8 +1,6 @@
 name: foodgram_workflow
 
-on:
-  push:
-    branches: [ master ]
+on: [push]
 
 jobs:
   copy_infra_to_server:
