@@ -11,10 +11,4 @@ Certbot has set up a scheduled task to automatically renew this certificate in t
 
 
 
-docker-compose run --rm --entrypoint "\
-certbot certonly --webroot -w /var/www/certbot \
-  --email axa.sultan@mail.ru \
-  -d foodrecipebook.hopto.org \
-  --rsa-key-size 2048 \
-  --agree-tos \
-  --force-renewal" certbot
+docker-compose run --rm --entrypoint "certbot certonly --webroot -w /var/www/certbot --email axa.sultan@mail.ru -d foodrecipebook.hopto.org --rsa-key-size 2048 --agree-tos --force-renewal" certbot
