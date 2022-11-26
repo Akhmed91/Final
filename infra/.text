@@ -4,3 +4,17 @@ Key is saved at:         /etc/letsencrypt/live/foodgramtube.hopto.org/privkey.pe
 This certificate expires on 2023-02-22.
 These files will be updated when the certificate renews.
 Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+
+
+
+
+
+
+docker-compose run --rm --entrypoint "\
+certbot certonly --webroot -w /var/www/certbot \
+  --email axa.sultan@mail.ru \
+  -d foodrecipebook.hopto.org \
+  --rsa-key-size 2048 \
+  --agree-tos \
+  --force-renewal" certbot
